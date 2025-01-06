@@ -1,0 +1,1 @@
+This repository demonstrates a common off-by-one error in C++ when iterating over a `std::vector`. The `bug.cpp` file contains the erroneous code, while `bugSolution.cpp` provides the corrected version.  The error occurs because the loop condition `i <= vec.size()` attempts to access the element at the index equal to the vector's size, which is one past the last valid index.
